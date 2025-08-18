@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pojednostavite poslovno darivanje | B2B GiftFlow</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+
+        .gradient-bg {
+            background-image: linear-gradient(to right, #2d78b9 0%, #02b3bd 100%);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Header & Hero Section -->
+    <header class="bg-white shadow-sm p-4 sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-900">B2B GiftFlow</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#solutions" class="text-gray-600 hover:text-gray-900 transition-colors">Naša rešenja</a>
+                <a href="#brands" class="text-gray-600 hover:text-gray-900 transition-colors">Brendovi</a>
+                <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors">Prednosti</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors">Kontakt</a>
+            </div>
+            <a href="#contact" class="hidden md:block bg-gray-900 text-white px-5 py-2 rounded-full font-medium hover:bg-gray-800 transition-colors">
+                Zatražite demo
+            </a>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-gray-600 hover:text-gray-900 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden mt-4 bg-white rounded-lg shadow-lg">
+            <a href="#solutions" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 transition-colors">Naša rešenja</a>
+            <a href="#brands" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 transition-colors">Brendovi</a>
+            <a href="#benefits" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 transition-colors">Prednosti</a>
+            <a href="#contact" class="block py-2 px-4 text-gray-600 hover:bg-gray-100 transition-colors">Kontakt</a>
+            <a href="#contact" class="block text-center bg-gray-900 text-white px-5 py-2 m-4 rounded-full font-medium hover:bg-gray-800 transition-colors">
+                Zatražite demo
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20 md:py-32 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                Nagradite svoj tim. Oduševite svoje klijente.
+            </h1>
+            <p class="text-lg md:text-xl font-light max-w-2xl mx-auto mb-8 opacity-90">
+                Jednostavno upravljajte programom poslovnog darivanja putem jedne platforme za savršene digitalne poklon kartice.
+            </p>
+            <a href="#contact" class="bg-white text-gray-900 px-8 py-3 rounded-full font-bold shadow-lg hover:bg-gray-100 transition-all transform hover:scale-105">
+                Zatražite besplatan demo
+            </a>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-20 px-4 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+                Pametniji način nagrađivanja
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1: Effortless Program Management -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    <div class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-blue-100 text-blue-500">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.22 2.572-1.065z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Mi brinemo za vas</h3>
+                    <p class="text-gray-600">
+                        Preskočite složenost kontrolnih tabli. Jednostavno nam pošaljite e-mail ili pozovite — mi ćemo organizovati i dostaviti poklon kartice vašim zaposlenima ili klijentima.
+                    </p>
+                </div>
+                <!-- Card 2: The Perfect Gift, Every Time -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    <div class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-green-100 text-green-500">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Jednostavna isporuka</h3>
+                    <p class="text-gray-600">
+                        Mi ćemo poslati digitalne poklon kartice u vaše ime, osiguravajući da primaoci brzo i pouzdano dobiju svoje nagrade.
+                    </p>
+                </div>
+                <!-- Card 3: Seamless Digital Delivery -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-lg flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    <div class="w-16 h-16 mb-4 flex items-center justify-center rounded-full bg-purple-100 text-purple-500">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8m2-2h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-gray-900">Jedna tačka kontakta</h3>
+                    <p class="text-gray-600">
+                        Nema potrebe za pregovorom s više maloprodaja. Radite direktno s nama i pristupite širokom spektru popularnih poklon kartica putem jednog pouzdanog partnera.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Brands Section -->
+    <section id="brands" class="py-20 px-4 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+                Vaučeri poznatih brendova koje ćete voleti
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
+                <!-- Card 1: Amazon -->
+                <div class="bg-white p-4 rounded-xl shadow-lg flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    <img src="https://placehold.co/100x100/354359/ffffff?text=Franš" alt="Amazon Logo" class="w-24 h-24 mb-4 object-contain">
+                    <h4 class="font-semibold text-lg text-gray-900">Restoran Franš</h4>
+                </div>
+                <!-- Card 2: Starbucks -->
+                <div class="bg-white p-4 rounded-xl shadow-lg flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    <img src="https://placehold.co/100x100/121715/ffffff?text=Spa Paradiso" alt="Starbucks Logo" class="w-24 h-24 mb-4 object-contain">
+                    <h4 class="font-semibold text-lg text-gray-900">Spa Paradiso</h4>
+                </div>
+                <!-- Card 3: Netflix -->
+                <div class="bg-white p-4 rounded-xl shadow-lg flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    <img src="https://placehold.co/100x100/e50914/ffffff?text=Lux Spa" alt="Netflix Logo" class="w-24 h-24 mb-4 object-contain">
+                    <h4 class="font-semibold text-lg text-gray-900">Lux Spa</h4>
+                </div>
+                <!-- Card 4: Spotify -->
+                <div class="bg-white p-4 rounded-xl shadow-lg flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    <img src="https://placehold.co/100x100/1DB954/ffffff?text=Elegance" alt="Spotify Logo" class="w-24 h-24 mb-4 object-contain">
+                    <h4 class="font-semibold text-lg text-gray-900">Elegance Beauty</h4>
+                </div>
+                <!-- Card 5: Adidas -->
+                <div class="bg-white p-4 rounded-xl shadow-lg flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105">
+                    <img src="https://placehold.co/100x100/000000/ffffff?text=Air Serbia" alt="Adidas Logo" class="w-24 h-24 mb-4 object-contain">
+                    <h4 class="font-semibold text-lg text-gray-900">Air Serbia</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 px-4">
+        <div class="container mx-auto max-w-5xl">
+            <div class="md:grid md:grid-cols-2 md:gap-12 items-center">
+                <div class="mb-8 md:mb-0">
+                    <img src="https://givenly.com/wp-content/uploads/2024/05/DALL%C2%B7E-2024-05-28-08.35.38-A-modern-office-setting-with-happy-employees-receiving-gifts.-The-employees-are-diverse-smiling-and-interacting-positively.-There-are-beautifully-wr-870x520.webp" alt="Tim slavi" class="rounded-xl shadow-lg">
+                </div>
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                        Postignite svoje poslovne ciljeve
+                    </h2>
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <span class="text-blue-500 font-bold text-2xl mr-4">&#10003;</span>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Pojednostavljena nabavka</h4>
+                                <p class="text-gray-600">Pristupite brojnim trgovcima preko jedne platforme bez odvojenih pregovora ili ugovora.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-500 font-bold text-2xl mr-4">&#10003;</span>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Skalabilne nagrade</h4>
+                                <p class="text-gray-600">Distribuirajte digitalne poklon kartice bez napora velikim timovima ili mrežama partnera.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-500 font-bold text-2xl mr-4">&#10003;</span>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Fleksibilnost u korišćenju</h4>
+                                <p class="text-gray-600">Ponudite primaocima slobodu da biraju nagrade od popularnih trgovaca koje zaista cene.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-500 font-bold text-2xl mr-4">&#10003;</span>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Jednostavna podrška</h4>
+                                <p class="text-gray-600">Bez potrebe za više kanala korisničke podrške — sve rešavamo na jednom mestu.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-blue-500 font-bold text-2xl mr-4">&#10003;</span>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900">Transparentnost i izveštavanje</h4>
+                                <p class="text-gray-600">Steknite jasan uvid u stope korišćenja i troškove kako biste bolje upravljali budžetima za nagrade.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-white py-20 px-4">
+        <div class="container mx-auto max-w-2xl text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+                Spremni da započnete?
+            </h2>
+            <p class="text-gray-600 mb-8">
+                Povežite se sa nama direktno i saznajte kako naša platforma može transformisati vašu strategiju poslovnog darivanja.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="mailto:notoolsnocraft@gmail.com" class="bg-blue-500 text-white font-bold py-4 px-8 rounded-lg shadow-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+                    <!-- Icon -->
+                    Pošaljite e-mail
+                </a>
+                <a href="https://www.linkedin.com/in/petar-skrbic/" target="_blank" rel="noopener noreferrer" class="bg-gray-900 text-white font-bold py-4 px-8 rounded-lg shadow-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+                    <!-- Icon -->
+                    Povežite se na LinkedIn-u
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8 px-4 text-center">
+        <div class="container mx-auto">
+            <p>&copy; 2025 - B2B GiftFlow. Sva prava zadržana.</p>
+        </div>
+    </footer>
+</body>
+</html>
